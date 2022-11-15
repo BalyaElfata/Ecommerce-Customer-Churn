@@ -41,7 +41,7 @@ Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang m
 | Complain | Integer | Any complaint has been raised in last month |
 | DaySinceLastOrder | Float | Day Since last order by customer |
 | CashbackAmount | Float | Average cashback in last month |
-| Churn | Integer | 0 - Not Churn, 1 - Churn|
+| Churn | Integer | Churn Flag (0 - Not Churn, 1 - Churn) |
 
 Dataset memilki 11 kolom dan 5624 baris. Dengan komposisi sebagai berikut:
 - 2 data bertipe object
