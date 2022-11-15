@@ -85,6 +85,7 @@ Fitur yang merupakan fitur kategorikal diubah menggunakan one hot encoder dengan
 ![5](https://github.com/BalyaElfata/Ecommerce-Customer-Churn/blob/main/Gambar/model.png)
 
 6 Model yang dipilih akan dibandingkan nilai F1 Scorenya lalu diambil model dengan performa terbaik.
+
 ![6](https://github.com/BalyaElfata/Ecommerce-Customer-Churn/blob/main/Gambar/models_performance.png)
 
 Menggunakan K Fold, LightGBM dipilih sebagai model untuk dataset ini karena memiliki performa terbaik di antara model lainnya.
@@ -94,6 +95,7 @@ Menggunakan K Fold, LightGBM dipilih sebagai model untuk dataset ini karena memi
 Oversampling dilakukan menggunakan RandomOversampler(). Akan tetapi, dipilih model tanpa oversampling untuk mempertahankan nilai presisi yang tinggi karena resiko False Positive lebih besar daripada False Negative.
 
 **Hyperparameter Tuning**
+
 ![7](https://github.com/BalyaElfata/Ecommerce-Customer-Churn/blob/main/Gambar/hyperparameter.png)
 
 Hyperparameter space dari LightGBM yang divariasikan adalah max_bin, num_leaves, min_data_in_leaf, num_iterations, learning_rate, dan random_state.
